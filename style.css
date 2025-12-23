@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* MENU */
+.menu-btn{
+    position:fixed;
+    top:20px;
+    right:20px;
+    font-size:28px;
+    cursor:pointer;
+    z-index:1000;
+}
+nav{
+    position:fixed;
+    top:0;
+    right:-100%;
+    width:220px;
+    height:100%;
+    background:#020617;
+    padding-top:80px;
+    transition:0.4s;
+}
+nav a{
+    display:block;
+    padding:15px;
+    color:white;
+    text-decoration:none;
+}
+nav a:hover{
+    background:#1e293b;
+}
+nav.active{
+    right:0;
+}
+
+/* SECTIONS */
+section{
+    
+    padding:60px 10%;
+}
+.center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+/* HOME */
+#home h1{
+    font-size:48px;
+}
+.scroll-text{
+    margin-top:10px;
+    font-size:22px;
+    color:#38bdf8;
+}
+
+/* PHOTO */
+.photo{
+    width:180px;
+    height:180px;
+    border-radius:8px;
+    border:3px solid #38bdf8;
+    margin:20px 0;
+    object-fit:cover;
+}
+
+/* HEADINGS */
+h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+h3{
+    margin-top:5px;
+}
+
+/* TECH LOGOS */
+.tech-container{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:15px;
+}
+.tech{
+    text-align:center;
+}
+.tech img{
+    width:100px;
+    height:100px;
+}
+
+/* RESUME BUTTON */
+.resume-btn{
+    background:#38bdf8;
+    color:black;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+.resume-btn:hover{
+    background:#0ea5e9;
+}
+/* Summary heading colors */
+.edu{
+    color:#22c55e; /* Green */
+}
+
+.skill{
+    color:#facc15; /* Yellow */
+}
+
+.intern{
+    color:#38bdf8; /* Blue */
+}
+
+.project{
+    color:#f472b6; /* Pink */
+}
+
+/* Paragraph text normal rahe */
+#summary p{
+    color:#e5e7eb;
+    line-height:1.7;
+    margin-bottom:15px;
+}
+#summary h3{
+    border-bottom:2px solid #334155;
+    padding-bottom:5px;
+    margin-top:25px;
+}
+

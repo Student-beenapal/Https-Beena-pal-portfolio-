@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MENU BUTTON -->
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+<!-- NAVBAR -->
+<nav id="nav">
+    <a href="#home" onclick="toggleMenu()">Home</a>
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#summary" onclick="toggleMenu()">Summary</a>
+    <a href="#resume" onclick="toggleMenu()">Resume</a>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="center">
+    <h1>Beena Pal</h1>
+    <div class="scroll-text" id="scrollText">Frontend Developer</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <img src="photo.jpg" class="photo" alt="My Photo">
+    <p>
+        I am a Frontend and Java Developer, currently pursuing B.Tech
+        and learning modern web technologies.
+    </p>
+</section>
+
+<!-- SUMMARY -->
+<section id="summary">
+ <h2>Summary</h2>
+  <h3 class="edu">Education</h3>
+    <p>
+        I am currently pursuing a <strong>Bachelor of Technology (B.Tech)</strong>
+        from <strong>RGPV University</strong> (2023–2027).
+        My academic curriculum includes programming, database management,
+        and web development fundamentals.
+        I completed my secondary education from <strong>MP Board</strong>,
+        which helped me build a strong foundation in mathematics
+        and computer concepts.
+        My education has improved my logical thinking and problem-solving skills.
+    </p> <br><br>
+
+    <h3 class="Skills">Technical Skills</h3>
+   <div class="tech-container">  
+        <div class="tech">
+            <img src="html(1).png">
+            <p>HTML</p>
+        </div>
+        <div class="tech">
+            <img src="css(1).png">
+            <p>CSS</p>
+        </div>
+        <div class="tech">
+            <img src="js.png">
+            <p>JavaScript</p>
+        </div>
+        <div class="tech">
+            <img src="java.png">
+            <p>Java</p>
+        </div>
+    </div>
+    <br><br>
+    <!-- Internship -->
+    <h3 clas =" Intern">Internship</h3>
+    <p>
+        I completed a <strong>Web Development Internship at YuvaIntern</strong>,
+        where I gained practical experience in frontend development.
+        During the internship, I worked on converting wireframes into
+        static web pages using HTML and CSS.
+        I learned to design responsive layouts using media queries.
+        I also implemented JavaScript features to add interactivity.
+        This internship helped me understand real-world project structure.
+        I improved my debugging and clean coding practices.
+        Overall, the internship increased my confidence in building web projects independently.
+    </p> <br><br>
+
+    <!-- Project -->
+    <h3 class=" project">Project</h3>
+    <p>
+        I developed a <strong>Personal Portfolio Website</strong> as my first project
+        using HTML, CSS, and JavaScript.
+        The website contains sections like Home, About, Summary, and Resume.
+        JavaScript was used for typing text animation and menu toggle functionality.
+        The project is responsive and works well on different screen sizes.
+        This project helped me apply my learning into a real-world application.
+    </p>
+
+
+
+<!-- RESUME -->
+<section id="resume" class="center">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+</section>
+
+<!-- JS LINK -->
+<script src="script.js"></script>
+</body>
+</html>
